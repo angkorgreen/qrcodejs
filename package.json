@@ -1,20 +1,24 @@
 {
-    "name": "qrcodejs",
+    "name": "@angkorgreen/qrcodejs",
     "version": "1.0.0",
     "description": "QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM. QRCode.js has no dependencies.",
     "main": "qrcode.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "login": "npm login --registry=https://npm.pkg.github.com/",
+        "deploy": "npm publish"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/socheatsok78/qrcodejs.git"
+        "url": "git+https://github.com/angkorgreen/qrcodejs.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/socheatsok78/qrcodejs/issues"
+        "url": "https://github.com/angkorgreen/qrcodejs/issues"
     },
-    "homepage": "https://github.com/socheatsok78/qrcodejs#readme"
+    "homepage": "https://github.com/angkorgreen/qrcodejs#readme",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    }
 }
